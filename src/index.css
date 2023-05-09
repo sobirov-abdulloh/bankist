@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "R\"; */
+  font-style: normal;
+  list-style-type: none;
+  text-decoration: none;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+h1 {
+  @apply text-xl;
+}
+
+h2 {
+  @apply text-lg;
+}
+
+h3 {
+  @apply text-base;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
